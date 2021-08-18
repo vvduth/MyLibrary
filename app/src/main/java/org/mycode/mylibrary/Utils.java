@@ -82,4 +82,17 @@ public class Utils {
         }
         return null ;
     }
+
+    public boolean addToAlreadyRead(Book book){
+        return alreadyReadBooks.add(book); // return if we have added the book successfully or not
+    }
+    public boolean addToWhistList(Book book){
+        return  wantToReadBooks.add(book);
+    }
+    public boolean addToCurrentRead(Book book){
+        return  currentlyReadingBooks.add(book);
+    }
+    public boolean addToFavourite(Book book){
+        return  favouriteBooks.add(book);
+    }
 }
