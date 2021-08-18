@@ -21,6 +21,8 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import static org.mycode.mylibrary.BookActivity.BOOK_ID_KEY;
+
 public class BooksRecViewAdapter extends RecyclerView.Adapter<BooksRecViewAdapter.ViewHolder> {
 
     private static final String TAG = "BooksRecViewAdapter";
@@ -53,6 +55,9 @@ public class BooksRecViewAdapter extends RecyclerView.Adapter<BooksRecViewAdapte
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(mContext, BookActivity.class);
+                //intent is used for navigate the user to the bookactivity
+                intent.putExtra(BOOK_ID_KEY, books.get(position).getId());
+                //can parse multiple extras
                 mContext.startActivity(intent);
                 //Toast.makeText(mContext,books.get(position).getName()+ " Selected",Toast.LENGTH_SHORT).show();
             }
