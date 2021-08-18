@@ -28,7 +28,7 @@ public class AllBooksActivity extends AppCompatActivity {
         ArrayList<Book> books = new ArrayList<>();
         books.add(new Book(1, "Harry Potter","JK Rowling", 1570,"https://www.jkrowling.com/wp-content/uploads/2018/01/SorcerersStone_2017.png",
                 "A witch story", "Very famous"));
-        books.add(new Book(2, "The Three Musketeers","Alexandre Dumas", 1510,"https://pictures.abebooks.com/inventory/424641162.jpg",
+        books.add(new Book(2, "The Three Musketeers","Alexandre Dumas", 1510,"https://i.ebayimg.com/images/g/350AAOSwm2xZo-RY/s-l1600.jpg",
                 "High adventure, royal intrigue, and romance", "Very famous"));
         adapter.setBooks(books);
     }
