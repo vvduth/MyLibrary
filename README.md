@@ -14,6 +14,8 @@ A book management app.
  * This App can run on Android system only , but at the moment I do not have money to put it on the Google Play, so if you are an employer/ HR staff, please check a video demo below and hire me. :pleading_face: 
 ## Demo video
 
+If the video below cannot be played, please [Click here](https://www.youtube.com/watch?v=nJYGw6y2iZM).
+
 
 
 
